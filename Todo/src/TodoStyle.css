@@ -1,0 +1,141 @@
+*{
+margin:0px;
+padding: 0px;
+box-sizing: border-box;
+}
+
+h1{
+    font-family: 'Lemonada', cursive;
+    color: white;
+}
+h4{
+    font-family: 'Indie Flower', cursive;
+font-family: 'Lemonada', cursive;
+color: white;
+text-transform: capitalize;
+}
+.app_body{
+    background-color: rgb(243, 19, 64);
+    margin:100px auto;
+    width: 23%;
+    height: auto;
+    border-radius: 30px;
+    box-shadow: 6px 7px 20px 12px black;
+}
+input{
+    background-color: rgb(243, 19, 64);
+    border: none;
+    height: 40px;
+    border-bottom: 3px solid rgb(255, 252, 252);
+    outline: none;
+    color: white;
+    widows: 100px;
+}
+.addBtn{
+    color: green;
+    background-color: white;
+    border: 2px solid green;
+    border-radius: 30px;
+    padding: 3px;
+    margin:3px;
+    transition: ease-in-out 0.3s;
+}
+.addBtn:hover{
+    color: white;
+    background-color: green;
+}
+.list_div{
+    width: 100%;
+}
+ul{
+    padding: 3px;
+}
+li{
+    padding: 2px;
+    margin: 2px;
+}
+.delBtn
+{
+    background-color: white;
+    color: rgb(8, 154, 190);
+    padding: 3px;
+    border: 2px solid white;
+    transition: ease-in-out 0.5s;
+    border-radius: 20px;
+
+}
+.delBtn:hover{
+    color: red;
+    border: red;
+    padding: 4px;
+}
+.resBtn
+{
+    padding: 3px;
+    background-color: white;
+    color: rgb(165, 10, 212);
+    padding: 3px;
+    border: 2px solid white;
+    transition: ease-in-out 0.5s;
+    border-radius: 20px;
+}
+.resBtn:hover{
+    color: white;
+    border: rgb(165, 10, 212);
+    background-color: rgb(165, 10, 212);
+    padding: 4px;
+}
+@media  screen and (max-width: 992px)
+{
+    input{
+        width: 100px;
+    }
+    h1{
+        font-size: 17px;
+    }
+    h4{
+        font-size: 12px;
+    }
+    .addBtn{
+        padding: 2px;
+    }
+    .delBtn{
+        padding: 2px;
+    }
+    .delBtn:hover{
+        padding: 3px;
+    }
+    .resBtn{
+        padding: 2px;
+    }
+    .resBtn:hover{
+        padding: 3px;
+    }
+}
+@media  screen and (max-width: 550px)
+{
+    input{
+        width: 50px;
+    }
+    h1{
+        font-size: 14px;
+    }
+    h4{
+        font-size: 10px;
+    }
+    .addBtn{
+        padding: 1px;
+    }
+    .delBtn{
+        padding: 1px;
+    }
+    .delBtn:hover{
+        padding: 2px;
+    }
+    .resBtn{
+        padding: 1px;
+    }
+    .resBtn:hover{
+        padding: 2px;
+    }
+}

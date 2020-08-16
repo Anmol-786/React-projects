@@ -1,0 +1,117 @@
+/* Navbar design */
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar {
+    background-color: white!important;
+}
+li{
+    font-size: 1.5rem!important;
+}
+.navbar-brand{
+    padding: 4px;
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border-bottom: 3px solid crimson;
+
+}
+.navbar a:hover{
+    color:rgb(17, 115, 228)!important;
+}
+.nav {
+    font-weight: bold;
+    border-bottom: 1px solid black!important;
+}
+/* Home page design */
+
+.main_div{
+    display: flex;
+    position: relative;
+    justify-content: center;
+
+}
+.text_div{
+    position: absolute;
+    top:150px;
+    left:40px;
+    transform: translateX(10%);
+    display: flex;
+    flex-direction: column;
+}
+.para{
+    
+    font-size: 2.5rem;
+    text-align: center;
+    width: 50%;
+    top:200px;
+    left:40px;
+    transform: translateX(10%);
+}
+.brand{
+    color: crimson;
+}
+.img_home{
+    position: absolute;
+    top:60px;
+    right: 150px;
+    /* translate: (-50px); */
+    transform: translateX(-25%);
+    box-shadow: black;
+}
+.img_home{
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+@-webkit-keyframes up-down{
+    0%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+}
+@keyframes up-down{
+    0%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+}
+img{
+    width: 25%;
+}
+.btn_started{
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-align: center;
+    width: 22%;
+    margin:2px;
+    padding: 3px;
+    border:1px solid rgb(17, 115, 228);
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: white;
+    color:rgb(17, 115, 228);
+    transition: 0.5s;
+}
+.text_div a:hover{
+    background-color:rgb(17, 115, 228);
+    color:white;
+}
+
+/* Services Page design */
+.tit{
+    color: rgb(153, 22, 22);
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.card{
+    height: 400px;
+}
+.card img{
+    height: 200px;
+}
