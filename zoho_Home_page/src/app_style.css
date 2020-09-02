@@ -1,0 +1,137 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+/* navbar design */
+.navbar {
+    background-color: white!important;
+}
+li{
+    font-size: 1rem!important;
+    padding:0px 15px;
+    font-weight: bold;
+    color:black;
+}
+#signup
+{
+    color:crimson;
+}
+.navbar-brand{
+    padding: 4px;
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border-bottom: 3px solid crimson;
+
+}
+.navbar a:hover{
+    color:rgb(17, 115, 228)!important;
+}
+.nav {
+    font-weight: bold;
+    border-bottom: 1px solid black!important;
+}
+
+/* home page styling */
+.main_heading{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#heading{
+    font-weight: bold;
+    margin:20px 10px;
+    margin-top: 40px;
+    font-size:2.5rem;
+}
+#second_head{
+    margin-bottom: 50px;
+}
+.outer_common{
+    padding: 60px 0px;
+}
+.common{
+    display:grid;
+    min-width: 70%;
+    background-image: linear-gradient(to right, rgba(15, 224, 252, 0.2) ,rgba(15, 224, 252, 0.1), white);
+    grid-template-rows: 200px 200px;
+    grid-template-columns: 2fr repeat(2,1fr);
+}
+
+.bigger_card{
+    grid-row: 1/-1;
+    padding:4px 2px;
+}
+.smaller_card{
+    padding:4px 4px;
+}
+/* bundles designing */
+
+.bundles_container{
+    display:grid;
+    min-width: 65%;
+    grid-template-rows: 250px 250px 250px;
+    grid-template-columns: repeat(3,1fr);
+    place-items: center;
+    margin-bottom: 100px;
+}
+.upper_card{
+    grid-column: 1/-1;
+    grid-row: 1/2;
+    padding: 5px 5px;
+}
+.lower_card{
+    padding:4px 10px;
+}
+.partner_container{
+    display: grid;
+    grid-template-rows: 320px 300px;
+    grid-template-columns: 1fr repeat(3,1fr);
+}
+.partner_container:nth-child(1){
+    grid-row: 1/-1;
+}
+.footer_class{
+    background-color: rgb(36, 34, 34);
+    color: white;
+    height: 400px;
+}
+.nav_link{
+    color:blue;
+}
+.footer_class a{
+    color:white;
+}
+.search{
+    margin-top: 50px;
+    width: 60%;
+    height: 15%;
+    background-color:  rgb(36, 34, 34);
+    color: wheat;
+    outline: none;
+    border-right: none;
+}
+.app_grid{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 30px;
+    margin-bottom: 100px;
+}
+
+.app_title{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.app_head{
+    grid-column: 1/-1;
+}
+.apps{
+    transition: ease-in-out 0.3s;
+}
+.apps:hover{
+    border-bottom: 1px solid crimson;
+    
+}
